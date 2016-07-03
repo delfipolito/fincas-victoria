@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Fincas de Victoria</title>
+		<meta charset="UTF-8"> <!--Encoding -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Movile first -->
+		<script src="js/jquery.min.js"></script><!--JQuery 1.11.2 local -->
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/mail.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><!--API de Google Maps -->
+	</head>
+
+	<body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#who-we-are">Quienes somos</a></li>
+            <li><a href="#what-we-offer">Que te ofrecemos</a></li>
+            <li><a href="#masterplan">Masterplan</a></li>
+            <li><a href="#location">Ubicacion</a></li>
+            <li><a href="#contact">Contacto</a></li>
+
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <section class="home">
+
+    </section>
+    <section class="who-we-are valign-wrapper" id="who-we-are">
+      <div class="valign">
+        <img  src="./images/hojaB.png" height="45"></img>
+        <h1 class="brown-title">QUIENES SOMOS<h1>
+        <p class="brown-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu diam efficitur, aliquam quam et, condimentum tellus. Suspendisse luctus eros neque, et tincidunt nunc maximus vitae. Sed pellentesque, magna in vehicula tincidunt, tellus nibh placerat tortor, sit amet facilisis ligula sem eu enim. Aenean hendrerit lacus ac dolor facilisis egestas. Maecenas quam dui, rutrum sit amet feugiat non, dignissim quis risus. Integer ultri- cies eget elit sit amet luctus. Aliquam quis lectus ac ligula pharetra egestas eget eu sapien. Aliquam erat volutpat. Praesent convallis dolor ma- lesuada mi suscipit faucibus. Aliquam at nulla a mauris auctor sollicitudin sed vel felis. Fusce ut diam consectetur est accumsan cursus at dig- nissim odio. Aliquam at quam sodales elit fermentum varius. Nam pharetra vehicula turpis, consectetur lobortis sem scelerisque id.</p>
+        <p class="brown-text">Integer efficitur semper elit, a tempus turpis ornare maximus. Maecenas tortor erat, malesuada eget sapien in, pulvinar rhoncus orci. Fusce euismod ipsum ut mauris venenatis, eget tempor felis lacinia. In hac habitasse platea dictumst. Donec in molestie erat. Aenean dolor lectus, molestie nec finibus nec, interdum a justo.</p>
+      </div>
+    </section>
+    <section class="what-we-offer valign-wrapper" id="what-we-offer">
+      <div class="valign col-xs-12">
+        <img  src="./images/hojaW.png" height="45"></img>
+        <h1 class="white-title">TE OFRECEMOS<h1>
+        <p class="we-offer-subtitle">Venta en pesos - Escrituración inmediata - Financiación -Títulos perfectos - Atención en el lugar.</p>
+        <div class="col-xs-12 col-sm-offset-1 col-sm-5 what-we-offer-div">
+          <div class="col-xs-12 col-sm-3">
+            <img  src="./images/services.png" class="what-we-offer-icon"></img>
+          </div>
+          <div class="col-xs-12 col-sm-9 left-aligned">
+            <p class="what-we-offer-div-title ">Servicios</p>
+            <p class="white-text">- Luz con cableado subterraneo.</p>
+            <p class="white-text">- Agua y gas natural.</p>
+            <p class="white-text">- Cloacas.</p>
+            <p class="white-text">- Iluminación pública.</p>
+            <p class="white-text">- Pavimento asfáltico con cordón cuneta.</p>
+            <p class="white-text">- Tritubo (para fibra óptica, sistema monitoreado y cable).</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5 what-we-offer-div">
+          <div class="col-xs-12 col-sm-3 ">
+            <img  src="./images/security.png" class="what-we-offer-icon"></img>
+          </div>
+          <div class="col-xs-12 col-sm-9 left-aligned">
+            <p class="what-we-offer-div-title">Seguridad</p>
+            <p class="white-text">- Luz con cableado subterraneo.</p>
+            <p class="white-text">- Agua y gas natural.</p>
+            <p class="white-text">- Cloacas.</p>
+            <p class="white-text">- Iluminación pública.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="masterplan valign-wrapper" id="masterplan">
+      <div class="valign col-xs-12">
+        <img  src="./images/hojaB.png" height="45"></img>
+        <h1 class="brown-title">MASTERPLAN<h1>
+        <img  src="./images/masterplan.png" class="masterplan-image"></img>
+        <p class="masterplan-subtitle">Superficies aproximadas de los terrenos</p>
+        <div class="col-xs-12" style="margin-top: 45px;">
+          <span class="masterplan-field">450m2</span>
+          <span class="masterplan-field">640m2</span>
+          <span class="masterplan-field">920m2</span>
+        </div>
+      </div>
+    </section>
+    <section class="location-title valign-wrapper" id="location">
+      <div class="valign col-xs-12">
+        <img  src="./images/hojaB.png" height="45"></img>
+        <h1 class="brown-title">UBICACION<h1>
+      </div>
+    </section>
+    <section class="location">
+
+    </section>
+    <section class="location-download valign-wrapper">
+      <div class="col-xs-12 col-sm-offset-1 col-sm-5 valign">
+        <div class="col-xs-12 col-sm-2 ">
+          <img  src="./images/location.png" class="what-we-offer-icon"></img>
+        </div>
+        <div class="col-xs-12 col-sm-10 left-aligned">
+          <p class="brown-text">Calle 38 3001,</p>
+          <p class="brown-text">Lisandro Olmos, Buenos Aires.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-5 valign">
+
+        <div class="col-xs-12 col-sm-10 right-aligned">
+          <p class="brown-text">Descargar plano</p>
+          <p class="brown-text">“cómo llegar”</p>
+        </div>
+        <div class="col-xs-12 col-sm-2 ">
+          <a download="como-llegar.png" href="./images/planocomollegar.pdf" target="_blank" title="ComoLLegar">
+              <img  src="./images/download.png" class="what-we-offer-icon"></img>
+          </a>
+
+        </div>
+      </div>
+
+    </section>
+    <section class="contact valign-wrapper" id="contact">
+      <div class="valign col-xs-12">
+        <img  src="./images/hojaW.png" height="45"></img>
+        <h1 class="white-title">CONTACTO<h1>
+        <p class="we-offer-subtitle">Escribinos un e-mail con tu consulta y nos pondremos en contacto a la brevedad</p>
+        <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
+          <form>
+            <div class="col-xs-12 col-sm-6 formDiv"><input type="text" class="form-control formStyle" id="nombre" placeholder="Nombre"></div>
+            <div class="col-xs-12 col-sm-6 formDiv"><input type="email" class="form-control formStyle" id="correo" placeholder="Correo electrónico"></div>
+            <div class="col-xs-12 formDiv"><textarea class="form-control formStyle" rows="7" placeholder="Mensaje"></textarea></div>
+            <div class="col-xs-12 right-aligned"><button class="sendButton" id="sendButton">ENVIAR</button></div>
+          </form>
+          <img  src="./images/contact.png" class="contactImage"></img>
+        </div>
+      </div>
+
+    </section>
+  </body>
+</html>

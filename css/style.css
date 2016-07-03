@@ -1,0 +1,247 @@
+.navbar-default {
+    background-color: #e4dedb!important;
+    border-color: #e4dedb!important;
+    border-radius: 0px!important;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #d0ccc8;
+}
+.navbar-default .navbar-nav > li > a {
+    font-size: 17px;
+    color: #3e4038!important;
+}
+.navbar {
+    margin-bottom: 0px!important;
+}
+
+
+html, body, section {
+	height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+section{
+	position: relative;
+
+}
+
+.right-aligned{
+  text-align: right;
+}
+.left-aligned{
+  text-align: left;
+}
+
+.valign-wrapper {
+ display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-flex-align: center;
+ -ms-flex-align: center;
+ -webkit-align-items: center;
+ align-items: center;
+}
+
+.valign-wrapper .valign {
+ display: block;
+}
+
+.home{
+	background-image: url('../images/home.png');
+	background-repeat: no-repeat;
+   	background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.who-we-are{
+    background-color: #e4dedb;
+    height: 100%;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+.what-we-offer{
+    background-color: #3e3f38;
+    height: 100%;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.masterplan{
+    background-color: #e4dedb;
+    height: 150%;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.location-title{
+    background-color:#d3e48c;
+    height: 30%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.location{
+    height: 90%;
+    position: relative;
+    overflow: hidden;
+    background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.9509961,-58.0140853&zoom=13&scale=2&markers=-34.9509961,-58.0140853&size=1080x300&sensor=false');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.location-download{
+    background-color:#d3e48c;
+    height: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact{
+    background-color: #3e3f38;
+    height: 100%;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+@font-face {
+ font-family: 'muliLight';
+ src: url('../fonts/Muli/Muli-Light.ttf') format('opentype');
+}
+@font-face {
+ font-family: 'camptonLight';
+ src: url('../fonts/campton/Campton-LightDEMO.otf') format('opentype');
+}
+@font-face {
+ font-family: 'muliLightItalic';
+ src: url('../fonts/Muli/Muli-LightItalic.ttf') format('opentype');
+}
+@font-face {
+ font-family: 'camptonBold';
+ src: url('../fonts/campton/Campton-BoldDEMO.otf') format('opentype');
+}
+.brown-title{
+  color: #3e3f38;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 32px;
+  font-family: 'camptonLight';
+}
+.brown-text{
+  color: #3e3f38;
+  font-size: 18px;
+  font-family: 'muliLight';
+  letter-spacing: 1px;
+}
+
+.white-title{
+  color: #e4dedb;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 32px;
+  font-family: 'camptonLight';
+}
+.white-text{
+  color: #e4dedb;
+  font-size: 18px;
+  font-family: 'muliLight';
+  letter-spacing: 1px;
+}
+.we-offer-subtitle{
+  color: #e4dedb;
+  font-size: 22px;
+  font-family: 'muliLightItalic';
+}
+.what-we-offer-div{
+  margin-top: 40px;
+}
+.what-we-offer-icon{
+  width: 80%;
+}
+.what-we-offer-div-title{
+  color: #e4dedb;
+  font-size: 22px;
+  font-family: 'camptonBold';
+}
+
+.masterplan-image{
+  width: 800px;
+}
+.masterplan-subtitle{
+  color: #3e3f38;
+  font-family: 'muliLight';
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.masterplan-field{
+  color: #3e3f38;
+  font-family: 'muliLight';
+  font-size: 26px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin: auto;
+  height: 135px;
+  width: 135px;
+  margin: auto;
+  border: solid 2px #3e3f38;
+  border-radius: 150px;
+  border-radius: 150px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+
+
+.formStyle{
+  background: #32332f;
+  border: 0;
+  border-radius: 0px;
+  color: #e4dedb;
+  outline: none;
+  padding: 23px;
+}
+
+.formDiv{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contactImage{
+  width: 60%;
+  margin-top: 30px;
+}
+.sendButton{
+  font-family: 'muliLight';
+  font-size: 17px;
+  background-color: #3e3f38;
+  color: #e4dedb;
+  border: solid 2px #e4dedb;
+  padding: 14px 18px;
+}
