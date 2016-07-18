@@ -7,7 +7,7 @@ $(document).ready(function(){
 		$('.nombre').val('');
 		$('.mensaje').val('');
 		$('.formMotive').val('');
-		alert("Disculpe, ha ocurrido un problema al enviar la consulta. ")
+		alert("Disculpe, ha ocurridoit un problema al enviar la consulta. ")
 		// if(validateRequiredInput($('.nombre').val()) && validateRequiredInput($('.correo').val()) && validateRequiredInput($('.mensaje').val())){
 		// 	if(validateCorrectEmail($('.correo').val())){
 		// 		var json= {

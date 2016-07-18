@@ -182,6 +182,9 @@ section{
 .what-we-offer-icon{
   width: 80%;
 }
+.addressIcon{
+  width: 80%;
+}
 .what-we-offer-div-title{
   color: #e4dedb;
   font-size: 22px;
@@ -232,7 +235,7 @@ section{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
+.centerXs{text-align: left;}
 .contactImage{
   width: 60%;
   margin-top: 30px;
@@ -244,4 +247,94 @@ section{
   color: #e4dedb;
   border: solid 2px #e4dedb;
   padding: 14px 18px;
+}
+.leaf{
+  height: 50px;
+}
+
+@media (max-width: 767px) { /*Para monitores xs*/
+  .who-we-are{
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .what-we-offer{
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .what-we-offer-icon {
+    width: 100px;
+    margin-bottom: 20px;}
+  .left-aligned {text-align: center;}
+  .masterplan-image {  width: 90%;}
+  .masterplan-field {
+    font-size: 16px;
+    padding-top: 27px;
+    padding-bottom: 27px;}
+  .masterplan {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .brown-title {font-size: 30px;}
+  .white-title {font-size: 30px;}
+  .we-offer-subtitle {font-size: 17px;}
+  .brown-text {font-size: 16px;}
+  .white-text {font-size: 16px;}
+  .masterplan-subtitle {font-size: 20px;}
+  .contactImage {width: 100%;}
+  .noXsPadding{padding: 0px;}
+  .addressIcon{width: 47px;
+    margin-bottom: 6px;}
+  .centerXs{text-align: center;}
+  .right-aligned{text-align: center;}
+  .location-download {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .leaf{
+    height: 30px;
+  }
+  .contact {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { /*Para monitores sm*/
+  .masterplan-image {  width: 90%;}
+  .masterplan {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+  .who-we-are{
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .what-we-offer{
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .addressIcon{
+    width: 47px;
+    margin-bottom: 6px;
+  }
+  .centerXs{text-align: center;}
+  .contactImage {width: 100%;}
+  .leaf{
+    height: 40px;
+  }
+  .contact {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .white-text {font-size: 20px;}
+  .brown-text {font-size: 20px;}
 }
