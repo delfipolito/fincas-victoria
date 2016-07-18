@@ -50,7 +50,7 @@ section{
 }
 
 .home{
-	background-image: url('../images/home.png');
+	background-image: url('../images/home.jpeg');
 	background-repeat: no-repeat;
    	background-attachment: fixed;
     background-position: center;
@@ -170,6 +170,14 @@ section{
   font-size: 18px;
   font-family: 'muliLight';
   letter-spacing: 1px;
+}
+.super-title{
+  color: #e4dedb;
+  font-size: 100px;
+  font-family: 'camptonBold';
+  letter-spacing: 1px;
+  text-align: center;
+  width: 100%;
 }
 .we-offer-subtitle{
   color: #e4dedb;
@@ -302,6 +310,7 @@ section{
     padding-top: 30px;
     padding-bottom: 30px;
   }
+  .super-title{font-size: 45px;}
 }
 
 @media (min-width: 768px) and (max-width: 991px) { /*Para monitores sm*/
