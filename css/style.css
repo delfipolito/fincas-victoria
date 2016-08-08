@@ -86,7 +86,7 @@ section{
 
 .masterplan{
     background-color: #e4dedb;
-    height: 150%;
+    height: 100%;
     min-height: 600px;
     position: relative;
     overflow: hidden;
@@ -100,10 +100,10 @@ section{
     text-align: center;
 }
 .location{
-    height: 90%;
+    height: 60%;
     position: relative;
     overflow: hidden;
-    background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.9509961,-58.0140853&zoom=13&scale=2&markers=-34.9509961,-58.0140853&size=1080x300&sensor=false');
+    background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.9409961,-58.0140853&zoom=13&scale=2&markers=-34.9509961,-58.0140853&size=1080x300&sensor=false');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -114,7 +114,7 @@ section{
 }
 .location-download{
     background-color:#d3e48c;
-    height: 30%;
+    height: 12%;
     position: relative;
     overflow: hidden;
 }
@@ -148,7 +148,7 @@ section{
   color: #3e3f38;
   text-align: center;
   font-size: 45px;
-  margin-bottom: 32px;
+  margin-bottom: 0px;
   font-family: 'camptonLight';
 }
 .brown-text{
@@ -200,13 +200,13 @@ section{
 }
 
 .masterplan-image{
-  width: 800px;
+  width: 90%;
 }
 .masterplan-subtitle{
   color: #3e3f38;
   font-family: 'muliLight';
   font-size: 26px;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 
@@ -216,15 +216,15 @@ section{
   font-size: 26px;
   margin-top: 15px;
   margin-bottom: 15px;
-  margin: auto;
-  height: 135px;
-  width: 135px;
+  /*margin: auto;*/
+  /*height: 135px;
+  width: 135px;*/
   margin: auto;
   border: solid 2px #3e3f38;
   border-radius: 150px;
   border-radius: 150px;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-right: 9px;
   padding-left: 9px;
 }
@@ -282,8 +282,8 @@ section{
     padding-bottom: 27px;}
   .masterplan {
     height: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .brown-title {font-size: 30px;}
   .white-title {font-size: 30px;}
@@ -317,8 +317,8 @@ section{
   .masterplan-image {  width: 90%;}
   .masterplan {
     height: auto;
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
   .who-we-are{
     height: auto;
@@ -346,4 +346,33 @@ section{
   }
   .white-text {font-size: 20px;}
   .brown-text {font-size: 20px;}
+}
+
+ul {
+  padding-left: 20px;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+  text-indent: -.7em;
+}
+
+.what-we-offer-menu:before {
+    content: "• ";
+    color: grey; /* or whatever color you prefer */
+}
+
+.img-show {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    /*margin-bottom:20px;*/
+}
+
+.img-show:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
